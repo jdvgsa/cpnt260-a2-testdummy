@@ -1,33 +1,44 @@
 /*body text*/
 body {
-font-family: 'Times New Roman', Times, serif;
-font-size: 20px;
-font-size: clamp(18px, 3vw, 20pxx);
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 23px;
+font-size: clamp(18px, 3vw, 20px);
 line-height: 1.25;
 
-color: hsla(0, 65%, 20%, 0.897);
+margin: 85px;
+text-align: justify;
+
+color: hsla(0, 68%, 21%, 0.877);
 background-color: hsla(48, 51%, 81%, 0.849);
 
 }
 
 main {
   max-width: 85ch;
-  margin:auto
+  margin:85ch;
 }
 
 /*heading*/
 h1, h2 {
-  font-family: 'Courier New', Courier, monospace;
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif 'Courier New', Courier, monospace;
   font-weight: bold;
   text-align: center;
   
-  border-radius: 5%;
-  border-width: 2mm;
+  border-radius: 10%;
+  border-width: 3ch;
  
   background-color: rgba(226, 224, 197, 0.952);
 
 }
 
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 25px;
+}
 /*link behavior*/
 a {
   color: rgba(255, 3, 3, 0.726);
